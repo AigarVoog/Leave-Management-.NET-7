@@ -10,6 +10,7 @@ namespace Leave_Management_Web_App.Data
 
         [ForeignKey("LeaveTypeId")]
         public LeaveType LeaveType { get; set; }        
-        public int LeaveTypeId { get; set; }      
+        public int LeaveTypeId { get; set; }
+        public int Period { get; set; }
     }
 }
