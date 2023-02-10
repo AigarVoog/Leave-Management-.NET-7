@@ -32,6 +32,11 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="" asp-action="">My Leave</a>
                         </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Employees" asp-action="Index">Employees</a>
+                        </li>
+                        
                         @*show leave management menu items only to admin*@
                         @if (User.IsInRole(Roles.Administrator))
                         {

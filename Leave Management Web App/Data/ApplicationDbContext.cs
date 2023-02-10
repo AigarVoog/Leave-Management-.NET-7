@@ -1,6 +1,7 @@
 ﻿using Leave_Management_Web_App.Configurations.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Leave_Management_Web_App.Models;
 
 namespace Leave_Management_Web_App.Data
 {
@@ -24,5 +25,6 @@ namespace Leave_Management_Web_App.Data
 
         // create a table in the database called LeaveAllocations
         public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
+        
     }
 }
