@@ -17,6 +17,3 @@ Code First Approach
 # Note on Contributions
 This project is a personal project and contributions are not being accepted at this time. 
 It is intended to showcase the skills and abilities of the developer for potential employers.
-
-# License
-This project is open source and is available under the [CC BY].
