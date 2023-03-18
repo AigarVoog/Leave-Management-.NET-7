@@ -25,6 +25,6 @@ namespace Leave_Management_Web_App.Data
 
         // create a table in the database called LeaveAllocations
         public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
-        
+                
     }
 }
